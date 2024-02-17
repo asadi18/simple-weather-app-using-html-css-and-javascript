@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP Using JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="searchBox" />
+        <button class="searchButton">
+          <img src="img/search.png" alt="Search" />
+        </button>
+      </div>
+
+      <div class="weatherDetails">
+        <img src="img/clear.png" alt="Weather Icon" class="weatherIcon"/>
+        <h1 class="temparature"> °C</h1>
+        <h2 class="location">Location</h2>
+      </div>
+
+      <div class="moreDetails">
+        <div class="humiditySection">
+          <img src="img/humidity.png" alt="Humidity" class="humidityImg" />
+          <div>
+            <p class="humidity">%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="WindSection">
+          <img src="img/wind.png" alt="Wind" class="windImg" />
+          <div>
+            <p class="wind">km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
